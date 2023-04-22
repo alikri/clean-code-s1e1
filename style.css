@@ -1,19 +1,19 @@
 /* Basic Style */
 .body {
-	background-color: #f8f8f8;
-	color: #333;
-	font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .header {
-	width: 500px;
-	margin: 0 auto;
-	display: block;
+  width: 500px;
+  margin: 0 auto;
+  display: block; 
 	text-align: right;
 }
 
 .header__img {
-	width: 100%;
+  width: 100%;
 }
 
 .header__additional-info {
@@ -21,26 +21,26 @@
 }
 
 @media (max-width: 768px) {
-	
-	.header { 
-		text-align: center;
-	}
+  
+  .header { 
+    text-align: center;
+  }
 
 }
 
 .main {
-	display: block;
-	width: 500px;
-	margin: 0 auto 0;
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .list-task__label,
 .list-task__input,
 .add-item__input {
-	width: 56%;
-	display: inline-block;
-	flex-grow: 1;
-	vertical-align: middle;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+  vertical-align: middle;
 }
 
 .add-item__wrapper {
@@ -48,8 +48,8 @@
 }
 
 ul {
-	margin: 0;
-	padding: 0px;
+  margin: 0;
+  padding: 0px;
 }
 
 li, 
@@ -63,14 +63,14 @@ button{
 }
 
 .button {
-	background: none;
-	border: 0px;
-	color: #888;
-	font-size: 15px;
-	width: 60px;
-	font-family: Lato, sans-serif;
-	cursor: pointer;
-	vertical-align: middle;
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 .button:hover {
@@ -80,27 +80,27 @@ button{
 /* Heading */
 .title,
 .add-item__label {
-	color: #333;
-	font-weight: 700;
-	font-size: 15px;
-	border-bottom: 2px solid #333;
-	padding: 30px 0 10px;
-	margin: 0;
-	text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .add-item__input,
 .list-task__input {
-	margin: 0;
-	font-size: 18px;
-	line-height: 18px;
-	height: 21px;
-	padding: 0 9px;
-	border: 1px solid #dDd;
-	background: #FFF;
-	border-radius: 6px;
-	font-family: Lato, sans-serif;
-	color: #888;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
 }
 
 .add-item__input,
@@ -110,8 +110,8 @@ button{
 
 /* New Task */
 .add-item__label {
-	display: block;
-	margin: 0 0 20px;
+  display: block;
+  margin: 0 0 20px;
 }
 
 .add-item__input {
@@ -120,12 +120,12 @@ button{
 
 /* Task list */
 .list-task {
-	overflow: hidden;
-	padding: 20px 0;
-	border-bottom: 1px solid #eee;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list-task__input,
@@ -134,10 +134,10 @@ button{
 }
 
 .list-task__label {
-	padding-left: 10px;
-	box-sizing: border-box;
-	font-size: 18px;
-	width: 226px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 
 .list-task__input{
@@ -145,9 +145,9 @@ button{
 }
 
 .button-delete__img {
-	height: 2em;
-	transform: rotateZ(45deg);
-	transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 
 .button-delete__img:hover {
@@ -156,8 +156,8 @@ button{
 
 /* Completed */
 .completed-tasks .list-task__label {
-	text-decoration: line-through;
-	color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
