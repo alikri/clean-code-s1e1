@@ -28,7 +28,7 @@
 
 }
 
-.main {
+.main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -165,11 +165,11 @@ button{
   display: none;
 }
 
-.list-task_edit_mode .list-task__input {
+.list-task_edit .list-task__input {
   display: inline-block;
   width: 224px;
 }
 
-.list-task_edit_mode .list-task__label {
+.list-task_edit .list-task__label {
   display: none;
 }
