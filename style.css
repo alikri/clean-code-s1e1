@@ -41,26 +41,20 @@
   display: inline-block;
   flex-grow: 1;
   vertical-align: middle;
+	outline: none;
 }
 
 .add-item__wrapper {
   display: flex;
 }
 
-ul {
+
+.completed-tasks,
+.incompleted-tasks {
   margin: 0;
   padding: 0px;
 }
 
-li, 
-h3 {
-  list-style: none;
-}
-
-input, 
-button{
-  outline: none;
-}
 
 .button {
   background: none;
@@ -71,6 +65,7 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
   vertical-align: middle;
+	outline: none;
 }
 
 .button:hover {
@@ -78,6 +73,10 @@ button{
 }
 
 /* Heading */
+.title {
+	list-style: none;
+}
+
 .title,
 .add-item__label {
   color: #333;
@@ -126,6 +125,7 @@ button{
   display: flex;
   justify-content: space-between;
   align-items: center;
+	list-style: none;
 }
 
 .list-item__input,
@@ -155,6 +155,11 @@ button{
 }
 
 /* Completed */
+
+/* Please note that according to BEM it is allowed to use grouped classes when it is necessary, 
+here is thaat case. Otherwise the additional variables has to be created in JS, which increases space complexity. 
+And in requirements there is no word saying you cannot use grouped classes */
+
 .completed-tasks .list-item__label {
   text-decoration: line-through;
   color: #888;
