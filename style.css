@@ -167,8 +167,7 @@ li {
 here is thaat case. Otherwise the additional variables has to be created in JS, which increases space complexity. 
 And in requirements there is no word saying you cannot use grouped classes */
 
-.completed-tasks,
-.list-item__label {
+.completed-tasks .list-item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -178,13 +177,11 @@ And in requirements there is no word saying you cannot use grouped classes */
   display: none;
 }
 
-.list-item_edit,
-.list-item__input {
+.list-item_edit .list-item__input {
   display: inline-block;
   width: 224px;
 }
 
-.list-item_edit,
-.list-item__label {
+.list-item_edit .list-item__label {
   display: none;
 }
