@@ -50,7 +50,7 @@ li {
   display: inline-block;
   flex-grow: 1;
   vertical-align: middle;
-	outline: none;
+  outline: none;
 }
 
 .add-item__wrapper {
@@ -74,7 +74,7 @@ li {
   font-family: "Lato", sans-serif;
   cursor: pointer;
   vertical-align: middle;
-	outline: none;
+  outline: none;
 }
 
 .button:hover {
@@ -83,7 +83,7 @@ li {
 
 /* Heading */
 .title {
-	list-style: none;
+  list-style: none;
 }
 
 .title,
@@ -134,7 +134,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-	list-style: none;
+  list-style: none;
 }
 
 .list-item__input,
