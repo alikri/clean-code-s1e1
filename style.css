@@ -57,13 +57,11 @@ li {
   display: flex;
 }
 
-
 .completed-tasks,
 .incompleted-tasks {
   margin: 0;
   padding: 0px;
 }
-
 
 .button {
   background: none;
