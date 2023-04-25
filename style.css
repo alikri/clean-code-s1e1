@@ -87,7 +87,7 @@ li {
 }
 
 .title,
-.add-item__label {
+.add-item__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -117,9 +117,10 @@ li {
 }
 
 /* New Task */
-.add-item__label {
+.add-item__title {
   display: block;
   margin: 0 0 20px;
+  text-transform: none;
 }
 
 .add-item__input {
